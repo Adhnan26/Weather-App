@@ -1,16 +1,82 @@
-# React + Vite
+☁️ Week 10 Project Completed – Weather App (OpenWeather API) 🌦️🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Super excited to share my Week-10 project — a fully functional Weather App built using React (Vite), Tailwind CSS, and the OpenWeather API! ❄️⚛️
 
-Currently, two official plugins are available:
+This project helped me understand real-time data fetching, API error handling, state management, and building a clean UI with reusable components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Built as part of my learning journey at Error Makes Clever (EMC) using the EMC Tutorial, under the guidance of Agnel John (Founder & Instructor) and with support from Nandhini (Co-Mentor).
 
-## React Compiler
+✨ Project Highlights :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ Search and Fetch Weather by City Name
+✅ Real-Time API Integration
+✅ Error Handling (Invalid city, failed request etc.)
+✅ Dynamic Weather Icons from OpenWeather
+✅ Temperature, Pressure, Humidity & Wind Speed
+✅ “Feels Like” Temperature Indicator
+✅ Responsive UI with Tailwind
+✅ Clean and Minimal Design
+✅ Reusable Components (SearchBar, WeatherCard)
 
-## Expanding the ESLint configuration
+🧠 What I Learned :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+~ This project helped me gain practical knowledge in:
+
+Working with external APIs using Axios
+
+Managing and updating component state
+
+Building reusable UI components
+
+Handling loading states and error responses
+
+Using environment variables for API keys
+
+Making responsive UI using Tailwind CSS
+
+Accepting user input and using it dynamically in API calls
+
+🧩 Tech Stack :
+
+⚛ React (Vite)
+🎨 Tailwind CSS
+🌍 OpenWeather API
+📦 Axios
+🔧 Environment Variables (VITE)
+
+📂 Project Structure & Features :
+
+🔎 SearchBar Component :
+
+~ Takes city name input
+~ Calls API function passed as props
+~ Clears input after search
+
+🌤️ WeatherCard Component :
+
+~ Displays temperature, country, humidity, wind, pressure
+~ Shows weather condition icon and description dynamically
+~ Clean UI layout with responsive design
+
+⚙️ How It Works :
+
+~ fetchWeather() calls the OpenWeather API
+~ useState stores loading, error, and weather response data
+~ API key stored securely in .env file
+~ WeatherCard renders only if valid data is received
+~ Handles city not found & network errors
+
+🔗 Live Project :
+➡️ https://weather-3dah3mlmq-mohamed-adhnan-s-projects.vercel.app/
+
+💻 GitHub Repository :
+➡️ 
+
+👨‍💻 Author :
+Mohamed Adhnan
+MERN Stack Developer – EMC Student
+
+Guided by Agnel John (Founder & Instructor, EMC)
+Supported by Nandhini (Co-Mentor)
+
+Ready to continue building more powerful projects in the upcoming weeks! 🚀☁️🔥
