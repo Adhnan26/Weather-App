@@ -67,7 +67,7 @@ Accepting user input and using it dynamically in API calls
 ~ Handles city not found & network errors
 
 🔗 Live Project :
-➡️ https://weather-3dah3mlmq-mohamed-adhnan-s-projects.vercel.app/
+➡️ https://weather-app-eight-beryl-79.vercel.app/
 
 💻 GitHub Repository :
 ➡️ https://github.com/Adhnan26/Weather-App/tree/main
